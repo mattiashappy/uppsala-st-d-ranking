@@ -14,8 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["Comic Sans MS", "Comic Sans", "cursive"],
-        display: ["Comic Sans MS", "Comic Sans", "cursive"],
+        sans: ["DM Sans", "system-ui", "sans-serif"],
+        display: ["Oswald", "sans-serif"],
+        heading: ["Raleway", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
