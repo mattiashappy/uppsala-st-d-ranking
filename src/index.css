@@ -82,7 +82,13 @@
     @apply bg-background text-foreground font-sans;
   }
 
-  h1, h2, h3 {
-    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+
+  h2, h3 {
+    font-family: 'Raleway', sans-serif;
   }
 }
