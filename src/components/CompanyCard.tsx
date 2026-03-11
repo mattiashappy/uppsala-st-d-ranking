@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { ChevronDown, ChevronUp, ExternalLink, Phone, CheckCircle } from "lucide-react";
 import type { CleaningCompany } from "@/data/companies";
 import StarRating from "./StarRating";
@@ -14,9 +15,11 @@ const CompanyCard = ({ company }: { company: CleaningCompany }) => {
           <RankBadge rank={company.rank} />
           
           <div className="flex-1 min-w-0">
-            <h3 className="text-xl font-bold font-display text-card-foreground">
-              {company.name}
-            </h3>
+            <Link to={`/foretag/${company.id}`} className="hover:text-primary transition-colors">
+              <h3 className="text-xl font-bold font-display text-card-foreground">
+                {company.name}
+              </h3>
+            </Link>
             <div className="flex items-center gap-3 mt-1">
               <StarRating rating={company.rating} />
               <span className="text-sm text-muted-foreground">
