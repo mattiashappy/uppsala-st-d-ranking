@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["DM Sans", "system-ui", "sans-serif"],
-        display: ["Playfair Display", "serif"],
+        sans: ["Comic Sans MS", "Comic Sans", "cursive"],
+        display: ["Comic Sans MS", "Comic Sans", "cursive"],
       },
       colors: {
         border: "hsl(var(--border))",
@@ -66,9 +66,9 @@ export default {
         },
       },
       borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
+        lg: "0",
+        md: "0",
+        sm: "0",
       },
       keyframes: {
         "accordion-down": {
