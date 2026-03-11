@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ["DM Sans", "system-ui", "sans-serif"],
-        display: ["Playfair Display", "serif"],
+        sans: ["Comic Sans MS", "Comic Sans", "cursive"],
+        display: ["Comic Sans MS", "Comic Sans", "cursive"],
       },
       colors: {
         border: "hsl(var(--border))",
